@@ -23,6 +23,6 @@ Route::get('/post', [PostController::class, 'index'])->name('post.index');
 
 Route::get('/post/{post}', [PostController::class, 'show'])->name('post.show');
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
