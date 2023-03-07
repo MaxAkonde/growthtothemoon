@@ -274,8 +274,8 @@
         <div class="container">
             <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
                 style="max-width: 500px;">
-                <p class="fs-5 fw-medium text-primary">Our Projects</p>
-                <h1 class="display-5 mb-5">We've Done Lot's of Awesome Projects</h1>
+                <p class="fs-5 fw-medium text-primary">Our niches expertise</p>
+                <h1 class="display-5 mb-5">We have mastered and are experts in the art of highly leveraged growth in the :</h1>
             </div>
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">
@@ -290,8 +290,8 @@
                         </div>
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="#">Data Analytics & Insights</a>
-                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
+                        <a class="d-block h5" href="#">CBDs</a>
+                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -306,8 +306,8 @@
                         </div>
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="#">Marketing Content Strategy</a>
-                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
+                        <a class="d-block h5" href="#">E-commerce</a>
+                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -322,8 +322,8 @@
                         </div>
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="#">Business Target Market</a>
-                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
+                        <a class="d-block h5" href="#">Blockchain & Metavers</a>
+                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -338,8 +338,104 @@
                         </div>
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="#">Social Marketing Strategy</a>
-                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
+                        <a class="d-block h5" href="#">Real Estate</a>
+                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
+                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
+                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <a class="d-block h5" href="#">Financial Services</a>
+                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
+                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
+                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <a class="d-block h5" href="#">Gaming</a>
+                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
+                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
+                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <a class="d-block h5" href="#">Luxury</a>
+                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
+                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
+                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <a class="d-block h5" href="#">Management Onlyfans & Mym talents</a>
+                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
+                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
+                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <a class="d-block h5" href="#">Business Consultancy</a>
+                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
+                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
+                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <a class="d-block h5" href="#">SaaS Ads ( B2B )</a>
+                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
             </div>
@@ -348,7 +444,7 @@
     <!-- Project End -->
 
 
-    <!-- Team Start -->
+    {{-- <!-- Team Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
@@ -458,20 +554,19 @@
             </div>
         </div>
     </div>
-    <!-- Testimonial End -->
+    <!-- Testimonial End --> --}}
 
     <!-- Quote Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="fs-5 fw-medium text-primary">Get A Quote</p>
+                    <p class="fs-5 fw-medium text-primary">Meet us and satisfy your curiosity</p>
                     <h1 class="display-5 mb-4">Need Our Expert Help? We're Here!</h1>
-                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
-                        erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam
-                        et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <p>To satisfy your curiosity , Just fill out our contact form, you will have the opportunity to tell us more about your
+                        business and your specific needs. This will allow us to tailor our services to meet
+                        your unique requirements and help you succeed.</p>
+                    <p class="mb-4">Let's open the lock to success, thanks to our exponential growth !</p>
                     <a class="d-inline-flex align-items-center rounded overflow-hidden border border-primary"
                         href="#">
                         <span class="btn-lg-square bg-primary" style="width: 55px; height: 55px;">
