@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PageController::class, 'index'])->name('index');
+
+Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+
+Route::get('/post', [PostController::class, 'index'])->name('post.index');
+
+Route::get('/post/{post}', [PostController::class, 'show'])->name('post.show');
 
 Auth::routes();
 
