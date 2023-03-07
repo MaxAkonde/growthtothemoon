@@ -3,7 +3,7 @@
     <div class="container py-3">
         <div class="d-flex align-items-center">
             <a href="#">
-                <h2 class="text-white fw-bold m-0">GrowMark</h2>
+                <h2 class="text-white fw-bold m-0">GROWTH TO THE MOON</h2>
             </a>
             <div class="ms-auto d-flex align-items-center">
                 <small class="ms-4"><i class="fa fa-map-marker-alt me-3"></i>75 Shelton Str Covent Garden, London</small>
