@@ -480,13 +480,6 @@
                         <span class="text-primary">Paid ads specialist & data analyst</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="{{ asset('user/img/team-4.jpg') }}" alt="">
-                        <h5>Morgan A.</h5>
-                        <span class="text-primary">Only Fan & Myms ecosystem & talent manager</span>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -555,7 +548,7 @@
                         <span class="btn-lg-square bg-primary" style="width: 55px; height: 55px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </span>
-                        <span class="fs-5 fw-medium mx-4">+012 345 6789</span>
+                        <span class="fs-5 fw-medium mx-4">+ 44 7436843298</span>
                     </a>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
