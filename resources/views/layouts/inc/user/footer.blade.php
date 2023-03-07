@@ -37,7 +37,8 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4">Newsletter</h4>
-                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <p>Subscribe to get our offers and sales. Take profit from our tips
+                    for success !</p>
                 <div class="position-relative w-100">
                     <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
                         placeholder="Your email">
