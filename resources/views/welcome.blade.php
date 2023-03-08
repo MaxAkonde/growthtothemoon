@@ -3,7 +3,7 @@
 @section('extra-css')
     <style>
         /* Start Brand Area
-                ==================================================*/
+                            ==================================================*/
         .brand-carousel.owl-carousel .owl-item img {
             width: auto;
             display: inline-block;
@@ -372,6 +372,77 @@
     </div>
     <!-- Project End -->
 
+    <div class="container-fluid mt-5 mb-0">
+        <div class="container">
+            <div class="col-lg-12 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
+                <div class="bg-white rounded-top p-5 mt-lg-5">
+                    <h1 class="display-6 mb-4 text-center">GROW 10X FASTER, BETTER, SMARTER.</h1>
+                    <p class="mb-4 text-center">Skip the guesswork, trial-and-error and never-ending shit show of trying to
+                        figure
+                        everything out yourself – for the
+                        very first time. And instead, grow your business with
+                        proven client-getting-system, frameworks and scientific
+                        customer acquisition (not hopes and prayers).
+                    </p>
+                    <div class="row g-5 pt-2 mb-5 text-center">
+                        <div class="col-sm-4">
+                            <h1 class="display-6 mb-5 text-primary"><span class="counterUp">7</span>x</h1>
+                            <h5 class="mb-3">FASTER ONBOARDING SYSTEMS</h5>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="display-6 mb-5 text-primary"><span class="counterUp">20</span>+</h1>
+                            <h5 class="mb-3">UP-TO DATE AI INTEGRATIONS</h5>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="display-6 mb-5 text-primary"><span class="counterUp">98</span>%</h1>
+                            <h5 class="mb-3">SYSTEMS UP-TIME</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-0 mb-3">
+        <div class="container">
+            <div class="col-lg-12 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
+                <div class="bg-white rounded-top mt-lg-5">
+                    <h1 class="display-6 mb-4 text-center">NO MORE ‘HOPING-AND-PRAYING’</h1>
+                    <p class="mb-4 text-center">“Since partnering with Growth to the moon the results have been nothing short of outstanding. There are three simple words here and that is: Leads & Sales ! Leads & Sales ! Leads & Sales !”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid my-5">
+        <div class="container">
+            <div class="col-lg-12 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
+                <div class="bg-white rounded-top p-5 mt-lg-5">
+                    <h1 class="display-6 mb-4 text-center">THE MOST RUTHLESSLY EFFECTIVE PLATFORM FOR RAPIDLY SCALING BUSINESSES ON PLANET EARTH</h1>
+                    <p class="mb-4 text-center">There are a lot of so-called “agencies” and “gurus” roaming around on the web today. Most of these people are all bark, no bite. All waffles, no syrup. ‘Cause marketers lie, but numbers don’t. And we’ve generated enormous results for our clients,</p>
+                    <div class="row g-5 pt-2 mb-5 text-center">
+                        <div class="col-sm-3">
+                            <h1 class="display-6 mb-5 text-primary"><span class="counterUp">50</span>+</h1>
+                            <h5 class="mb-3">CLIENTS</h5>
+                        </div>
+                        <div class="col-sm-3">
+                            <h1 class="display-6 mb-5 text-primary">$<span class="counterUp">3</span>M</h1>
+                            <h5 class="mb-3">AD-SPEND MANAGED</h5>
+                        </div>
+                        <div class="col-sm-3">
+                            <h1 class="display-6 mb-5 text-primary"><span class="counterUp">500</span>%+</h1>
+                            <h5 class="mb-3">RETURN ON AD-SPEND</h5>
+                        </div>
+                        <div class="col-sm-3">
+                            <h1 class="display-6 mb-5 text-primary"><span class="counterUp">8</span>+</h1>
+                            <h5 class="mb-3">COMPANIES</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Team Start -->
     <div class="container-xxl py-5">
@@ -559,7 +630,7 @@
                 </div>
                 <div class="brand-item">
                     <div class="brand-item-inner">
-                        <a href="#"><img src="assets/img/brands/6.png" alt=""></a>
+                        <a href="#"><img src="user/img/brands/6.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -569,8 +640,10 @@
 @endsection
 
 @section('extra-js')
+    <script src="{{ asset('user/js/counterup.js') }}"></script>
     <script>
         jQuery(document).ready(function($) {
+
             $('.brand-carousel').owlCarousel({
                 loop: true,
                 dots: false,
@@ -589,6 +662,11 @@
                         items: 6
                     },
                 },
+            });
+
+            $('.counterUp').counterUp({
+                delay: 10,
+                time: 1000
             });
         });
     </script>
