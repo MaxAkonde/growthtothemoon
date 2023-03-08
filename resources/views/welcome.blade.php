@@ -62,42 +62,35 @@
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="{{ asset('user/img/icon/icon-1.png') }}" alt="Icon">
                         </div>
-                        <h5 class="mb-3">ROI & Data - Driven</h5>
-                        <p class="mb-0">We help your business to shift to ROI & Data -Driven marketing to build awareness
-                            and reach their revenue objective in today’s digital work.</p>
+                        <h5 class="mb-3">ROI & Data  - Driven</h5>
+                        <p class="mb-0">We help your business to shift to ROI & Data -Driven marketing to build awareness and reach their revenue objective in today’s digital work.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <div class="feature-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="{{ asset('user/img/icon/icon-2.png') }}" alt="Icon">
+                            <img class="img-fluid" src="{{ asset('user/img/icon/icon-13.png') }}" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Cognitive marketing expert</h5>
-                        <p class="mb-0">Our deep understanding of consumer behavior, ability to analyze complex
-                            data, creative problem-solving skills and continuous learning , keep us
-                            confident in our breaking rules strategy to unlock your Growth by the power of
-                            marketing.</p>
+                        <h5 class="mb-3">Cognitive Marketing expert</h5>
+                        <p class="mb-0">We crack your Growth by the power of creative problem-solving skills and continuous learning strategy we mastered.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="feature-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="{{ asset('user/img/icon/icon-3.png') }}" alt="Icon">
+                            <img class="img-fluid" src="{{ asset('user/img/icon/icon-12.png') }}" alt="Icon">
                         </div>
                         <h5 class="mb-3">Technology - Driven</h5>
-                        <p class="mb-0">We are committed to using the best technology and staying on the top of the latest
-                            innovations in digital marketing to give you unexpected results.</p>
+                        <p class="mb-0">We are committed to using the best technology and staying on the top of the latest innovations in digital marketing to give you unexpected results.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <div class="feature-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="{{ asset('user/img/icon/icon-4.png') }}" alt="Icon">
+                            <img class="img-fluid" src="{{ asset('user/img/icon/icon-11.png') }}" alt="Icon">
                         </div>
                         <h5 class="mb-3">Spectacular & transparent communicators</h5>
-                        <p class="mb-0">Trust is our relationship foundation. Weekly clear compelling reporting calls and
-                            reports, shared dedicated slack channels and strong daily building partnership.
-                            You’re always in the know.</p>
+                        <p class="mb-0">Trust is our partnership foundation. Weekly clear compelling reporting calls and reports, shared dedicated slack channels . You’re always in the know.</p>
                     </div>
                 </div>
             </div>
@@ -112,34 +105,23 @@
             <div class="row g-0">
                 <div class="col-lg-6">
                     <div class="h-100 d-flex align-items-center justify-content-center" style="min-height: 300px;">
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                            <span></span>
-                        </button>
                     </div>
                 </div>
                 <div class="col-lg-6 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-white rounded-top p-5 mt-lg-5">
                         <p class="fs-5 fw-medium text-primary">About Us</p>
                         <h1 class="display-6 mb-4">Take your business to the next level with our expertise.</h1>
-                        <p class="mb-4">We are growthtothemoon an innovative 360 digital agency, which will help you with
-                            its skills to hack the growth of your project starting from the first and essential pillar:
-                            your customer's brain. From this point, you have already unlocked the power of your
-                            scaling and opened the doors to success.</p>
+                        <p class="mb-4">We are growthtothemoon an innovative 360 digital agency, which will help you with its skills to hack the growth of your project starting from the first and essential pillar: your customer's brain. From this point, you have already unlocked the power of your scaling and opened the doors to success.</p>
                         <div class="row g-5 pt-2 mb-5">
                             <div class="col-sm-6">
                                 <img class="img-fluid mb-4" src="{{ asset('user/img/icon/icon-5.png') }}" alt="">
                                 <h5 class="mb-3">Managed Services</h5>
-                                <span>We advise you on your strategy, manage your ads, content,
-                                    internal talent and share our knowledge with you.</span>
+                                <span>We advise you on your strategy, manage your ads, content, internal talent and share our knowledge with you.</span>
                             </div>
                             <div class="col-sm-6">
                                 <img class="img-fluid mb-4" src="{{ asset('user/img/icon/icon-2.png') }}" alt="">
                                 <h5 class="mb-3">Dedicated Experts</h5>
-                                <span>Our talented teams are personally involved in the intricacies of
-                                    your case, with the goal of successfully surpassing your goal.
-                                    We focus our energy on laser campaigns, automations that reveal the uniqueness of
-                                    each partner we bring on board.</span>
+                                <span>We focus our energy on laser campaigns, automations that reveal the uniqueness of each partner we bring on board.</span>
                             </div>
                         </div>
                         <a class="btn btn-primary rounded-pill py-3 px-5" href="#">Satisfy your curiosity for free now</a>
@@ -149,28 +131,6 @@
         </div>
     </div>
     <!-- About End -->
-
-
-    <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="#" id="video" allowfullscreen
-                            allowscriptaccess="always" allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
 
 
     <!-- Service Start -->
@@ -189,8 +149,7 @@
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-5.png') }}" alt="Icon">
                             </div>
                             <h5 class="mb-3">Paid Advertisement</h4>
-                                <p class="mb-0">We advise on the best platform to use and manage your budget for out performing
-                                    campaign ( E-mail, B2B, content , social and sms marketing )</p>
+                                <p class="mb-0">We advise on the best platform to use and manage your budget for out performing campaign ( E-mail, B2B, content , social and sms marketing )</p>
                         </div>
                     </div>
                 </div>
@@ -202,8 +161,7 @@
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-6.png') }}" alt="Icon">
                             </div>
                             <h5 class="mb-3">SEO , Branding & ORM</h4>
-                                <p class="mb-0">We set up your ecosystem to be SEO friendly , branded and have a positive online
-                                    reputation for the brand and mitigate any negative impact on its image.</p>
+                                <p class="mb-0">We set up your ecosystem to be SEO friendly , branded and have a positive online reputation for the brand and mitigate any negative impact on its image.</p>
                         </div>
                     </div>
                 </div>
@@ -215,8 +173,7 @@
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-7.png') }}" alt="Icon">
                             </div>
                             <h5 class="mb-3">Sales Funnels & CRO pipeline</h4>
-                                <p class="mb-0">We optimize the sales funnels with less effort for the final customer, automate the
-                                    conversion rate optimization with a proven working process.</p>
+                                <p class="mb-0">We optimize the sales funnels with less effort for the final customer, automate the conversion rate optimization with a proven working process.</p>
                         </div>
                     </div>
                 </div>
@@ -227,10 +184,8 @@
                                 style="width: 64px; height: 64px;">
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-8.png') }}" alt="Icon">
                             </div>
-                            <h5 class="mb-3">Ecosystem setting and Talents Management for mym & onlyfans</h4>
-                                <p class="mb-0">We set up and let rise a model from zero to hero , by managing the strategy , the
-                                    acquisition , the customer loyalty and more engagement. We manage the career long
-                                    term opportunity</p>
+                            <h5 class="mb-3">Ecosystem setting and Talents Management for Mym & Onlyfans</h4>
+                                <p class="mb-0">We set up and let rise a model from zero to hero. We manage the career long term opportunity.</p>
                         </div>
                     </div>
                 </div>
@@ -242,10 +197,7 @@
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-9.png') }}" alt="Icon">
                             </div>
                             <h5 class="mb-3">Creative Studio</h4>
-                                <p class="mb-0">We set up a creative studio lab to innovate, brand, engage, to cost-effective
-                                    solutions, to streamline your process and collaborate with our partner to understand
-                                    their visions and goals, leading them to success and accomplishing the mission
-                                    assigned to us.</p>
+                                <p class="mb-0">We set up a creative studio lab to innovate, to cost-effective solutions, to streamline your process and collaborate with our partner to lead them to success.</p>
                         </div>
                     </div>
                 </div>
@@ -257,9 +209,7 @@
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-10.pn') }}g" alt="Icon">
                             </div>
                             <h5 class="mb-3">Business Consultation</h4>
-                                <p class="mb-0">We have partnership with experts in each customer sector , to challenge them ,
-                                    analyze their strength, weaknesses. We help orient their vision and roadmap in the
-                                    future to empower their activity to the next level , the success step.</p>
+                                <p class="mb-0">We accompany the anticipation of the future challenge , adjust the vision and the roadmap, to empower the next level , the success step.</p>
                         </div>
                     </div>
                 </div>
@@ -281,161 +231,81 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                         <img class="img-fluid" src="{{ asset('user/img/project-1.jpg') }}" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="{{ asset('user/img/project-1.jpg') }}" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
-                                    class="fa fa-link"></i></a>
-                        </div>
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="#">CBDs</a>
-                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
                         <img class="img-fluid" src="{{ asset('user/img/project-2.jpg') }}" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="{{ asset('user/img/project-2.jpg') }}" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
-                                    class="fa fa-link"></i></a>
-                        </div>
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="#">E-commerce</a>
-                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
                         <img class="img-fluid" src="{{ asset('user/img/project-3.jpg') }}" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="{{ asset('user/img/project-3.jpg') }}" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
-                                    class="fa fa-link"></i></a>
-                        </div>
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="#">Blockchain & Metavers</a>
-                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
                         <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
-                                    class="fa fa-link"></i></a>
-                        </div>
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="#">Real Estate</a>
-                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
-                                    class="fa fa-link"></i></a>
-                        </div>
+                        <img class="img-fluid" src="{{ asset('user/img/project-5.jpg') }}" alt="">
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="#">Financial Services</a>
-                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
-                                    class="fa fa-link"></i></a>
-                        </div>
+                        <img class="img-fluid" src="{{ asset('user/img/project-6.jpg') }}" alt="">
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="#">Gaming</a>
-                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
-                                    class="fa fa-link"></i></a>
-                        </div>
+                        <img class="img-fluid" src="{{ asset('user/img/project-7.jpg') }}" alt="">
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="#">Luxury</a>
-                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
-                                    class="fa fa-link"></i></a>
-                        </div>
+                        <img class="img-fluid" src="{{ asset('user/img/project-8.jpg') }}" alt="">
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="#">Management Onlyfans & Mym talents</a>
-                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
-                                    class="fa fa-link"></i></a>
-                        </div>
+                        <img class="img-fluid" src="{{ asset('user/img/project-9.jpg') }}" alt="">
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="#">Business Consultancy</a>
-                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{ asset('user/img/project-4.jpg') }}" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="{{ asset('user/img/project-4.jpg') }}" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
-                                    class="fa fa-link"></i></a>
-                        </div>
+                        <img class="img-fluid" src="{{ asset('user/img/project-10.jpg') }}" alt="">
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="#">SaaS Ads ( B2B )</a>
-                        {{-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> --}}
                     </div>
                 </div>
             </div>
