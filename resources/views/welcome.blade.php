@@ -1,5 +1,46 @@
 @extends('layouts.user')
 
+@section('extra-css')
+    <style>
+        /* Start Brand Area
+                ==================================================*/
+        .brand-carousel.owl-carousel .owl-item img {
+            width: auto;
+            display: inline-block;
+        }
+
+        .brand-carousel.owl-carousel.owl-drag .owl-item {
+            text-align: center;
+        }
+
+        .brand-item {
+            display: table;
+            width: 100%;
+            position: relative;
+            height: 50px;
+        }
+
+        .brand-item-inner {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        /* End Brand Area */
+
+        .pt-70 {
+            padding-top: 70px;
+        }
+
+        .pb-70 {
+            padding-bottom: 70px;
+        }
+
+        .gray-bg {
+            background: #f6f6f6;
+        }
+    </style>
+@endsection
+
 @section('content')
     <!-- Carousel Start -->
     <div class="container-fluid px-0 mb-5">
@@ -31,7 +72,8 @@
                                     <p class="fs-4 text-white animated slideInLeft">Welcome to
                                         <strong>GROWTH TO THE MOON</strong>
                                     </p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInLeft">Your success is Yours, we’re ready to explode the records</h1>
+                                    <h1 class="display-1 text-white mb-5 animated slideInLeft">Your success is Yours, we’re
+                                        ready to explode the records</h1>
                                     <a href="#"
                                         class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Dive in</a>
                                 </div>
@@ -62,8 +104,9 @@
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="{{ asset('user/img/icon/icon-1.png') }}" alt="Icon">
                         </div>
-                        <h5 class="mb-3">ROI & Data  - Driven</h5>
-                        <p class="mb-0">We help your business to shift to ROI & Data -Driven marketing to build awareness and reach their revenue objective in today’s digital work.</p>
+                        <h5 class="mb-3">ROI & Data - Driven</h5>
+                        <p class="mb-0">We help your business to shift to ROI & Data -Driven marketing to build awareness
+                            and reach their revenue objective in today’s digital work.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
@@ -72,7 +115,8 @@
                             <img class="img-fluid" src="{{ asset('user/img/icon/icon-13.png') }}" alt="Icon">
                         </div>
                         <h5 class="mb-3">Cognitive Marketing expert</h5>
-                        <p class="mb-0">We crack your Growth by the power of creative problem-solving skills and continuous learning strategy we mastered.</p>
+                        <p class="mb-0">We crack your Growth by the power of creative problem-solving skills and
+                            continuous learning strategy we mastered.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
@@ -81,7 +125,8 @@
                             <img class="img-fluid" src="{{ asset('user/img/icon/icon-12.png') }}" alt="Icon">
                         </div>
                         <h5 class="mb-3">Technology - Driven</h5>
-                        <p class="mb-0">We are committed to using the best technology and staying on the top of the latest innovations in digital marketing to give you unexpected results.</p>
+                        <p class="mb-0">We are committed to using the best technology and staying on the top of the latest
+                            innovations in digital marketing to give you unexpected results.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
@@ -90,7 +135,8 @@
                             <img class="img-fluid" src="{{ asset('user/img/icon/icon-11.png') }}" alt="Icon">
                         </div>
                         <h5 class="mb-3">Spectacular & transparent communicators</h5>
-                        <p class="mb-0">Trust is our partnership foundation. Weekly clear compelling reporting calls and reports, shared dedicated slack channels . You’re always in the know.</p>
+                        <p class="mb-0">Trust is our partnership foundation. Weekly clear compelling reporting calls and
+                            reports, shared dedicated slack channels . You’re always in the know.</p>
                     </div>
                 </div>
             </div>
@@ -111,20 +157,26 @@
                     <div class="bg-white rounded-top p-5 mt-lg-5">
                         <p class="fs-5 fw-medium text-primary">About Us</p>
                         <h1 class="display-6 mb-4">Take your business to the next level with our expertise.</h1>
-                        <p class="mb-4">We are growthtothemoon an innovative 360 digital agency, which will help you with its skills to hack the growth of your project starting from the first and essential pillar: your customer's brain. From this point, you have already unlocked the power of your scaling and opened the doors to success.</p>
+                        <p class="mb-4">We are growthtothemoon an innovative 360 digital agency, which will help you with
+                            its skills to hack the growth of your project starting from the first and essential pillar: your
+                            customer's brain. From this point, you have already unlocked the power of your scaling and
+                            opened the doors to success.</p>
                         <div class="row g-5 pt-2 mb-5">
                             <div class="col-sm-6">
                                 <img class="img-fluid mb-4" src="{{ asset('user/img/icon/icon-5.png') }}" alt="">
                                 <h5 class="mb-3">Managed Services</h5>
-                                <span>We advise you on your strategy, manage your ads, content, internal talent and share our knowledge with you.</span>
+                                <span>We advise you on your strategy, manage your ads, content, internal talent and share
+                                    our knowledge with you.</span>
                             </div>
                             <div class="col-sm-6">
                                 <img class="img-fluid mb-4" src="{{ asset('user/img/icon/icon-2.png') }}" alt="">
                                 <h5 class="mb-3">Dedicated Experts</h5>
-                                <span>We focus our energy on laser campaigns, automations that reveal the uniqueness of each partner we bring on board.</span>
+                                <span>We focus our energy on laser campaigns, automations that reveal the uniqueness of each
+                                    partner we bring on board.</span>
                             </div>
                         </div>
-                        <a class="btn btn-primary rounded-pill py-3 px-5" href="#">Satisfy your curiosity for free now</a>
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="#">Satisfy your curiosity for free
+                            now</a>
                     </div>
                 </div>
             </div>
@@ -149,7 +201,8 @@
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-5.png') }}" alt="Icon">
                             </div>
                             <h5 class="mb-3">Paid Advertisement</h4>
-                                <p class="mb-0">We advise on the best platform to use and manage your budget for out performing campaign ( E-mail, B2B, content , social and sms marketing )</p>
+                                <p class="mb-0">We advise on the best platform to use and manage your budget for out
+                                    performing campaign ( E-mail, B2B, content , social and sms marketing )</p>
                         </div>
                     </div>
                 </div>
@@ -161,7 +214,8 @@
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-6.png') }}" alt="Icon">
                             </div>
                             <h5 class="mb-3">SEO , Branding & ORM</h4>
-                                <p class="mb-0">We set up your ecosystem to be SEO friendly , branded and have a positive online reputation for the brand and mitigate any negative impact on its image.</p>
+                                <p class="mb-0">We set up your ecosystem to be SEO friendly , branded and have a positive
+                                    online reputation for the brand and mitigate any negative impact on its image.</p>
                         </div>
                     </div>
                 </div>
@@ -173,7 +227,8 @@
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-7.png') }}" alt="Icon">
                             </div>
                             <h5 class="mb-3">Sales Funnels & CRO pipeline</h4>
-                                <p class="mb-0">We optimize the sales funnels with less effort for the final customer, automate the conversion rate optimization with a proven working process.</p>
+                                <p class="mb-0">We optimize the sales funnels with less effort for the final customer,
+                                    automate the conversion rate optimization with a proven working process.</p>
                         </div>
                     </div>
                 </div>
@@ -185,7 +240,8 @@
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-8.png') }}" alt="Icon">
                             </div>
                             <h5 class="mb-3">Ecosystem setting and Talents Management for Mym & Onlyfans</h4>
-                                <p class="mb-0">We set up and let rise a model from zero to hero. We manage the career long term opportunity.</p>
+                                <p class="mb-0">We set up and let rise a model from zero to hero. We manage the career
+                                    long term opportunity.</p>
                         </div>
                     </div>
                 </div>
@@ -197,7 +253,8 @@
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-9.png') }}" alt="Icon">
                             </div>
                             <h5 class="mb-3">Creative Studio</h4>
-                                <p class="mb-0">We set up a creative studio lab to innovate, to cost-effective solutions, to streamline your process and collaborate with our partner to lead them to success.</p>
+                                <p class="mb-0">We set up a creative studio lab to innovate, to cost-effective solutions,
+                                    to streamline your process and collaborate with our partner to lead them to success.</p>
                         </div>
                     </div>
                 </div>
@@ -209,7 +266,8 @@
                                 <img class="img-fluid" src="{{ asset('user/img/icon/icon-10.pn') }}g" alt="Icon">
                             </div>
                             <h5 class="mb-3">Business Consultation</h4>
-                                <p class="mb-0">We accompany the anticipation of the future challenge , adjust the vision and the roadmap, to empower the next level , the success step.</p>
+                                <p class="mb-0">We accompany the anticipation of the future challenge , adjust the vision
+                                    and the roadmap, to empower the next level , the success step.</p>
                         </div>
                     </div>
                 </div>
@@ -225,7 +283,8 @@
             <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
                 style="max-width: 500px;">
                 <p class="fs-5 fw-medium text-primary">Our niches expertise</p>
-                <h1 class="display-5 mb-5">We have mastered and are experts in the art of highly leveraged growth in the :</h1>
+                <h1 class="display-5 mb-5">We have mastered and are experts in the art of highly leveraged growth in the :
+                </h1>
             </div>
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">
@@ -321,35 +380,35 @@
                 <p class="fs-5 fw-medium text-primary">Our Team</p>
                 <h1 class="display-5 mb-5">Our Expert People Ready to Help You</h1>
             </div>
-            <div class="row g-4">
+            <div class="row g-4 d-flex justify-content-center">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="{{ asset('user/img/team-1.jpg') }}" alt="">
-                        <h5>Alex V.</h5>
-                        <span class="text-primary">Founder & CEO Performance Project manager</span>
+                        <h5>Alicia H.</h5>
+                        <span class="text-primary">Cognitive Expert</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="{{ asset('user/img/team-2.jpg') }}" alt="">
-                        <h5>Alicia H</h5>
-                        <span class="text-primary">Psychologist & Cognitive Expert marketing</span>
+                        <h5>Gavin M.</h5>
+                        <span class="text-primary">Marketer 360 Expert</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="{{ asset('user/img/team-3.jpg') }}" alt="">
-                        <h5>Gavin M.</h5>
-                        <span class="text-primary">Digital Marketer 360 Expert</span>
+                        <h5>Morgan A.</h5>
+                        <span class="text-primary">Only Fan & Myms Specialist</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                {{-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="{{ asset('user/img/team-4.jpg') }}" alt="">
                         <h5>Caleb W.</h5>
                         <span class="text-primary">Paid ads specialist & data analyst</span>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -409,8 +468,8 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <p class="fs-5 fw-medium text-primary">Meet us and satisfy your curiosity</p>
                     <h1 class="display-5 mb-4">Need Our Expert Help? We're Here!</h1>
-                    <p>To satisfy your curiosity , Just fill out our contact form, you will have the opportunity to tell us more about your
-                        business and your specific needs. This will allow us to tailor our services to meet
+                    <p>To satisfy your curiosity, Just fill out our contact form, you will have the opportunity to tell us
+                        more about your business and your specific needs. This will allow us to tailor our services to meet
                         your unique requirements and help you succeed.</p>
                     <p class="mb-4">Let's open the lock to success, thanks to our exponential growth !</p>
                     <a class="d-inline-flex align-items-center rounded overflow-hidden border border-primary"
@@ -468,4 +527,69 @@
         </div>
     </div>
     <!-- Quote Start -->
+
+    <!-- Start Brands Area -->
+    <div class="brand-area gray-bg pt-70 pb-70">
+        <div class="container">
+            <div class="brand-carousel owl-carousel">
+                <div class="brand-item">
+                    <div class="brand-item-inner">
+                        <a href="#"><img src="user/img/brands/1.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="brand-item">
+                    <div class="brand-item-inner">
+                        <a href="#"><img src="user/img/brands/2.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="brand-item">
+                    <div class="brand-item-inner">
+                        <a href="#"><img src="user/img/brands/3.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="brand-item">
+                    <div class="brand-item-inner">
+                        <a href="#"><img src="user/img/brands/4.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="brand-item">
+                    <div class="brand-item-inner">
+                        <a href="#"><img src="user/img/brands/5.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="brand-item">
+                    <div class="brand-item-inner">
+                        <a href="#"><img src="assets/img/brands/6.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Brands Area -->
+@endsection
+
+@section('extra-js')
+    <script>
+        jQuery(document).ready(function($) {
+            $('.brand-carousel').owlCarousel({
+                loop: true,
+                dots: false,
+                thumbs: false,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    768: {
+                        items: 3
+                    },
+                    992: {
+                        items: 6
+                    },
+                },
+            });
+        });
+    </script>
 @endsection

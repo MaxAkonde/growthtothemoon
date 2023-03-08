@@ -32,6 +32,8 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('user/css/style.css') }}" rel="stylesheet">
+
+    @yield('extra-css')
 </head>
 
 <body>
@@ -68,6 +70,8 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('user/js/main.js') }}"></script>
+
+    @yield('extra-js')
 </body>
 
 </html>
