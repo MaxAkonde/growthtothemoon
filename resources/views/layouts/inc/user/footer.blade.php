@@ -4,27 +4,27 @@
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4">Our Office</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>71 - 75 Shelton Street Covent Garden london WC2H - 9JQ</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>71 - 75 Shelton Street Covent Garden london
+                    WC2H - 9JQ</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+ 44 7436843298</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>helena@growthtothemoon.com</p>
                 <div class="d-flex pt-3">
-                    <a class="btn btn-square btn-light rounded-circle me-2" href="#"><i
-                            class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-light rounded-circle me-2" href="#"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-light rounded-circle me-2" href="#"><i
-                            class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square btn-light rounded-circle me-2" href="#"><i
-                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-light rounded-circle me-2"
+                        href="https://twitter.com/growthtothemoo?s=21"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-light rounded-circle me-2"
+                        href="https://instagram.com/growthtothemoonagency?igshid=YmMyMTA2M2Y="><i
+                            class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square btn-light rounded-circle me-2"
+                        href="https://www.tiktok.com/@growthtothemoon_agency?_t=8aVCZHJ411J&_r=1"><i
+                            class="fab fa-tiktok"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4">Quick Links</h4>
-                <a class="btn btn-link" href="#">About Us</a>
-                <a class="btn btn-link" href="#">Contact Us</a>
+                <a class="btn btn-link" href="{{ route('index') }}">Home</a>
                 <a class="btn btn-link" href="#">Our Services</a>
-                <a class="btn btn-link" href="#">Terms & Condition</a>
-                <a class="btn btn-link" href="#">Support</a>
+                <a class="btn btn-link" href="#">Blog</a>
+                <a class="btn btn-link" href="{{ route('contact') }}">Contact Us</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4">Business Hours</h4>
