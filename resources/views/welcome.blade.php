@@ -134,7 +134,7 @@
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="{{ asset('user/img/icon/icon-11.png') }}" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Spectacular & transparent communicators</h5>
+                        <h5 class="mb-3">Transparent communicators</h5>
                         <p class="mb-0">Trust is our partnership foundation. Weekly clear compelling reporting calls and
                             reports, shared dedicated slack channels . You’re always in the know.</p>
                     </div>
@@ -408,7 +408,7 @@
             <div class="col-lg-12 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
                 <div class="bg-white rounded-top mt-lg-5">
                     <h1 class="display-6 mb-4 text-center">NO MORE ‘HOPING-AND-PRAYING’</h1>
-                    <p class="mb-4 text-center">“Since partnering with Growth to the moon the results have been nothing short of outstanding. There are three simple words here and that is: Leads & Sales ! Leads & Sales ! Leads & Sales !”</p>
+                    <p class="mb-4 text-center">“Since partnering with Growth to the moon the results have been nothing short of outstanding. There are three simple words here and that is: <b>Leads & Sales ! Leads & Sales ! Leads & Sales !</b>”</p>
                 </div>
             </div>
         </div>
@@ -451,7 +451,14 @@
                 <p class="fs-5 fw-medium text-primary">Our Team</p>
                 <h1 class="display-5 mb-5">Our Expert People Ready to Help You</h1>
             </div>
-            <div class="row g-4 d-flex justify-content-center">
+            <div class="row g-4 d-flex">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="{{ asset('user/img/team-4.jpg') }}" alt="">
+                        <h5>Alex V.</h5>
+                        <span class="text-primary">Performance manager</span>
+                    </div>
+                </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="{{ asset('user/img/team-1.jpg') }}" alt="">
@@ -473,13 +480,6 @@
                         <span class="text-primary">Only Fan & Myms Specialist</span>
                     </div>
                 </div>
-                {{-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="{{ asset('user/img/team-4.jpg') }}" alt="">
-                        <h5>Caleb W.</h5>
-                        <span class="text-primary">Paid ads specialist & data analyst</span>
-                    </div>
-                </div> --}}
             </div>
         </div>
     </div>
@@ -580,7 +580,7 @@
                                     <option value="">Content Marketing</option>
                                     <option value="">E-mail Marketing</option>
                                 </select>
-                                <label for="service">Choose A Service</label>
+                                <label for="service">Company Activity</label>
                             </div>
                         </div>
                         <div class="col-12">
@@ -640,7 +640,6 @@
 @endsection
 
 @section('extra-js')
-    <script src="{{ asset('user/js/counterup.js') }}"></script>
     <script>
         jQuery(document).ready(function($) {
 

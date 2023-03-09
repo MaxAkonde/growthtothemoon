@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
                     <a href="{{ route('index') }}" class="nav-item nav-link active">Home</a>
-                    <a href="#" class="nav-item nav-link">About</a>
+                    <a href="#" class="nav-item nav-link">Our Services</a>
                     <a href="#" class="nav-item nav-link">Blog</a>
                     <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
                 </div>
