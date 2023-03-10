@@ -22,7 +22,7 @@
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4">Quick Links</h4>
                 <a class="btn btn-link" href="{{ route('index') }}">Home</a>
-                <a class="btn btn-link" href="#">Our Services</a>
+                <a class="btn btn-link" href="{{ route('services') }}">Our Services</a>
                 <a class="btn btn-link" href="#">Blog</a>
                 <a class="btn btn-link" href="{{ route('contact') }}">Contact Us</a>
             </div>

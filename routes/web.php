@@ -19,6 +19,8 @@ Route::get('/', [PageController::class, 'index'])->name('index');
 
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 
+Route::get('/our-services', [PageController::class, 'services'])->name('services');
+
 Route::get('/post', [PostController::class, 'index'])->name('post.index');
 
 Route::get('/post/{post}', [PostController::class, 'show'])->name('post.show');
