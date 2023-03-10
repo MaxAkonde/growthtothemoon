@@ -46,7 +46,7 @@
                     <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="ms-auto d-none d-lg-block">
-                    <a href="#" class="btn btn-primary rounded-pill py-2 px-3">Book a Discovery call</a>
+                    <a href="https://calendly.com/helenagrowth/1h" class="btn btn-primary rounded-pill py-2 px-3">Book a Discovery call</a>
                 </div>
             </div>
         </nav>
