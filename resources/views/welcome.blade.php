@@ -55,7 +55,7 @@
                                     <p class="fs-4 text-white animated slideInRight">IT’S NOW
                                     </p>
                                     <h1 class="display-1 text-white mb-4 animated slideInRight">GROWTH TO THE MOON</h1>
-                                    <a href="#"
+                                    <a href="{{ route('services') }}"
                                         class="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">Explore
                                         Now</a>
                                 </div>
@@ -74,7 +74,7 @@
                                     </p>
                                     <h1 class="display-1 text-white mb-5 animated slideInLeft">Your success is Yours, we’re
                                         ready to explode the records</h1>
-                                    <a href="#"
+                                    <a href="{{ route('services') }}"
                                         class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Dive in</a>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                                     partner we bring on board.</span>
                             </div>
                         </div>
-                        <a class="btn btn-primary rounded-pill py-3 px-5" href="#">Satisfy your curiosity for free
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="https://calendly.com/helenagrowth/1h">Satisfy your curiosity for free
                             now</a>
                     </div>
                 </div>

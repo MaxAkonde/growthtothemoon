@@ -40,10 +40,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="{{ route('index') }}" class="nav-item nav-link active">Home</a>
-                    <a href="{{ route('services') }}" class="nav-item nav-link">Our Services</a>
-                    <a href="#" class="nav-item nav-link">Blog</a>
-                    <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
+                    <a href="{{ route('index') }}" class="nav-item nav-link {{ $active == 'index' ? 'active' : '' }}">Home</a>
+                    <a href="{{ route('services') }}" class="nav-item nav-link {{ $active == 'services' ? 'active' : '' }}">Our Services</a>
+                    <a href="#" class="nav-item nav-link {{ $active == 'post' ? 'active' : '' }}">Blog</a>
+                    <a href="{{ route('contact') }}" class="nav-item nav-link {{ $active == 'contact' ? 'active' : '' }}">Contact</a>
                 </div>
                 <div class="ms-auto d-none d-lg-block">
                     <a href="https://calendly.com/helenagrowth/1h" class="btn btn-primary rounded-pill py-2 px-3">Book a Discovery call</a>

@@ -8,16 +8,22 @@ class PageController extends Controller
 {
     public function index()
     {
-        return view('welcome');
+        return view('welcome', [
+            'active' => 'index',
+        ]);
     }
 
     public function contact()
     {
-        return view('contact');
+        return view('contact', [
+            'active' => 'contact',
+        ]);
     }
 
     public function services()
     {
-        return view('services');
+        return view('services', [
+            'active' => 'services',
+        ]);
     }
 }
