@@ -50,6 +50,7 @@ class PageController extends Controller
             'post' => $post,
             'blog' => $blog,
             'topics' => $topics,
+            'active' => 'blog',
         ]);
     }
 }
