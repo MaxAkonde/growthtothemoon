@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\AvisController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\TopicController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,10 +23,14 @@ Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 
 Route::get('/our-services', [PageController::class, 'services'])->name('services');
 
-Route::get('/post', [PostController::class, 'index'])->name('post.index');
+Route::get('/blog', [PageController::class, 'blog'])->name('blog');
 
-Route::get('/post/{post}', [PostController::class, 'show'])->name('post.show');
+Route::get('/blog/{post}', [PageController::class, 'single'])->name('single');
 
-//Auth::routes();
+Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('/topics', TopicController::class);
+Route::resource('/posts', PostController::class);
+Route::resource('/avis', AvisController::class);

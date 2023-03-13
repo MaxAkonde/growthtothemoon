@@ -42,7 +42,7 @@
                 <div class="navbar-nav">
                     <a href="{{ route('index') }}" class="nav-item nav-link {{ $active == 'index' ? 'active' : '' }}">Home</a>
                     <a href="{{ route('services') }}" class="nav-item nav-link {{ $active == 'services' ? 'active' : '' }}">Our Services</a>
-                    <a href="#" class="nav-item nav-link {{ $active == 'post' ? 'active' : '' }}">Blog</a>
+                    <a href="{{ route('blog') }}" class="nav-item nav-link {{ $active == 'blog' ? 'active' : '' }}">Blog</a>
                     <a href="{{ route('contact') }}" class="nav-item nav-link {{ $active == 'contact' ? 'active' : '' }}">Contact</a>
                 </div>
                 <div class="ms-auto d-none d-lg-block">
