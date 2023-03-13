@@ -31,25 +31,25 @@ class PageController extends Controller
 
     public function blog()
     {
-        //$posts = Post::latest()->paginate(8);
-        //$blog = Post::latest()->paginate(4);
-        //$topics = Topic::all();
+        $posts = Post::latest()->paginate(8);
+        $blog = Post::latest()->paginate(4);
+        $topics = Topic::all();
         return view('post.index', [
-            //'posts' => $posts,
-            //'blog' => $blog,
-            //'topics' => $topics,
+            'posts' => $posts,
+            'blog' => $blog,
+            'topics' => $topics,
             'active' => 'blog',
         ]);
     }
 
     public function single(Post $post)
     {
-        //$blog = Post::latest()->paginate(4);
-        //$topics = Topic::all();
+        $blog = Post::latest()->paginate(4);
+        $topics = Topic::all();
         return view('post.show', [
-            //'post' => $post,
-            //'blog' => $blog,
-            //'topics' => $topics,
+            'post' => $post,
+            'blog' => $blog,
+            'topics' => $topics,
         ]);
     }
 }
