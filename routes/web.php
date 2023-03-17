@@ -27,6 +27,12 @@ Route::get('/blog', [PageController::class, 'blog'])->name('blog');
 
 Route::get('/blog/{post}', [PageController::class, 'single'])->name('single');
 
+Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
+
+Route::get('/terms', [PageController::class, 'terms'])->name('terms');
+
+Route::get('/refund', [PageController::class, 'refund'])->name('refund');
+
 Auth::routes();
 
 Route::get('/register', function() {

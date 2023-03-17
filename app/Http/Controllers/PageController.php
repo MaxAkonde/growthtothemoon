@@ -53,4 +53,25 @@ class PageController extends Controller
             'active' => 'blog',
         ]);
     }
+
+    public function privacy()
+    {
+        return view('privacy', [
+            'active' => 'privacy',
+        ]);
+    }
+
+    public function terms()
+    {
+        return view('terms', [
+            'active' => 'terms',
+        ]);
+    }
+
+    public function refund()
+    {
+        return view('refund', [
+            'active' => 'refund',
+        ]);
+    }
 }

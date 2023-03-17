@@ -21,7 +21,7 @@
                 <div class="col-md-8 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-white rounded-top p-5 mt-lg-5">
                         @forelse ($posts as $item)
-                            <div class="post">
+                            <div class="post mb-3">
                                 <div class="post-media post-image"><img width="750" height="465"
                                         src="{{ asset('assets/posts/' . $item->image) }}"
                                         class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="">

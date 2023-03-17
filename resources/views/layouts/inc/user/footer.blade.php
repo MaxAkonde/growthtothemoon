@@ -27,13 +27,10 @@
                 <a class="btn btn-link" href="{{ route('contact') }}">Contact Us</a>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-4">Business Hours</h4>
-                <p class="mb-1">Monday - Friday</p>
-                <h6 class="text-light">09:00 am - 07:00 pm</h6>
-                <p class="mb-1">Saturday</p>
-                <h6 class="text-light">09:00 am - 12:00 pm</h6>
-                <p class="mb-1">Sunday</p>
-                <h6 class="text-light">Closed</h6>
+                <h4 class="text-white mb-4">Useful Links</h4>
+                <a class="btn btn-link" href="{{ route('privacy') }}">Privacy Policy</a>
+                <a class="btn btn-link" href="{{ route('terms') }}">Terms of Condition</a>
+                <a class="btn btn-link" href="{{ route('refund') }}">Refund Policy</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4">Newsletter</h4>
