@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>GrowMark - Digital Marketing HTML Template</title>
+    <title>GrowMark - Let’s scale ! It’s time | 🥇 Agency to Growthtothemoon with your business!</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="Let’s scale ! It’s time | 🥇 Agency to Growthtothemoon with your business!" name="description">
 
     <!-- Favicon -->
     <link href="{{ asset('user/img/Growthtothemoonthumb1.svg') }}" rel="icon">
