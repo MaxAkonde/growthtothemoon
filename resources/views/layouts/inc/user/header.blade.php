@@ -2,8 +2,10 @@
 <div class="container-fluid bg-primary text-white d-none d-lg-flex">
     <div class="container py-3">
         <div class="d-flex align-items-center">
-            <a href="#">
-                <h2 class="text-white fw-bold m-0">GROWTH TO THE MOON</h2>
+            <a href="{{ route('index') }}">
+                <h2 class="text-white fw-bold m-0">
+                    <img src="{{ asset('user/img/growthtothemoon.png') }}" alt="" style="height: 38.39px;width: 353.63px">
+                </h2>
             </a>
             <div class="ms-auto d-flex align-items-center">
                 <small class="ms-4"><i class="fa fa-map-marker-alt me-3"></i>75 Shelton Str Covent Garden,
@@ -32,7 +34,9 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
             <a href="{{ route('index') }}" class="navbar-brand d-lg-none">
-                <h1 class="fw-bold m-0">GrowMark</h1>
+                <h1 class="fw-bold m-0">
+                    <img style="height: 37.76px;" src="{{ asset('user/img/growthtothemoon_black.png') }}" alt="">
+                </h1>
             </a>
             <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
