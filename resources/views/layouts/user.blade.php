@@ -36,6 +36,16 @@
     <link href="{{ asset('user/css/style.css') }}" rel="stylesheet">
 
     @yield('extra-css')
+
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
+
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8247150122883360"
+        crossorigin="anonymous"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8247150122883360"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -75,6 +85,14 @@
     <script src="{{ asset('user/js/main.js') }}"></script>
 
     @yield('extra-js')
+
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-8247150122883360"></amp-auto-ads>
+
+    <amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-8247150122883360"
+        data-ad-slot="7877677672" data-auto-format="rspv" data-full-width="">
+        <div overflow=""></div>
+    </amp-ad>
+
 </body>
 
 </html>

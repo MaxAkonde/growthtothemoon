@@ -3,7 +3,7 @@
 @section('extra-css')
     <style>
         /* Start Brand Area
-                            ==================================================*/
+                                    ==================================================*/
         .brand-carousel.owl-carousel .owl-item img {
             width: auto;
             display: inline-block;
@@ -175,7 +175,8 @@
                                     partner we bring on board.</span>
                             </div>
                         </div>
-                        <a class="btn btn-primary rounded-pill py-3 px-5" href="https://calendly.com/helenagrowth/1h">Satisfy your curiosity for free
+                        <a class="btn btn-primary rounded-pill py-3 px-5"
+                            href="https://calendly.com/helenagrowth/1h">Satisfy your curiosity for free
                             now</a>
                     </div>
                 </div>
@@ -408,7 +409,9 @@
             <div class="col-lg-12 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
                 <div class="bg-white rounded-top mt-lg-5">
                     <h1 class="display-6 mb-4 text-center">NO MORE ‘HOPING-AND-PRAYING’</h1>
-                    <p class="mb-4 text-center">“Since partnering with Growth to the moon the results have been nothing short of outstanding. There are three simple words here and that is: <b>Leads & Sales ! Leads & Sales ! Leads & Sales !</b>”</p>
+                    <p class="mb-4 text-center">“Since partnering with Growth to the moon the results have been nothing
+                        short of outstanding. There are three simple words here and that is: <b>Leads & Sales ! Leads &
+                            Sales ! Leads & Sales !</b>”</p>
                 </div>
             </div>
         </div>
@@ -418,8 +421,11 @@
         <div class="container">
             <div class="col-lg-12 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
                 <div class="bg-white rounded-top p-5 mt-lg-5">
-                    <h1 class="display-6 mb-4 text-center">THE MOST RUTHLESSLY EFFECTIVE PLATFORM FOR RAPIDLY SCALING BUSINESSES ON PLANET EARTH</h1>
-                    <p class="mb-4 text-center">There are a lot of so-called “agencies” and “gurus” roaming around on the web today. Most of these people are all bark, no bite. All waffles, no syrup. ‘Cause marketers lie, but numbers don’t. And we’ve generated enormous results for our clients,</p>
+                    <h1 class="display-6 mb-4 text-center">THE MOST RUTHLESSLY EFFECTIVE PLATFORM FOR RAPIDLY SCALING
+                        BUSINESSES ON PLANET EARTH</h1>
+                    <p class="mb-4 text-center">There are a lot of so-called “agencies” and “gurus” roaming around on the
+                        web today. Most of these people are all bark, no bite. All waffles, no syrup. ‘Cause marketers lie,
+                        but numbers don’t. And we’ve generated enormous results for our clients,</p>
                     <div class="row g-5 pt-2 mb-5 text-center">
                         <div class="col-sm-3">
                             <h1 class="display-6 mb-5 text-primary"><span class="counterUp">50</span>+</h1>
@@ -637,6 +643,20 @@
         </div>
     </div>
     <!-- End Brands Area -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8247150122883360"
+        crossorigin="anonymous"></script>
+    <!-- Growth -->
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8247150122883360" data-ad-slot="7877677672"
+        data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+    <amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-8247150122883360"
+        data-ad-slot="7877677672" data-auto-format="rspv" data-full-width="">
+        <div overflow=""></div>
+    </amp-ad>
 @endsection
 
 @section('extra-js')
