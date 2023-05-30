@@ -43,9 +43,6 @@
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8247150122883360"
         crossorigin="anonymous"></script>
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8247150122883360"
-        crossorigin="anonymous"></script>
 </head>
 
 <body>
