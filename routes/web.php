@@ -25,7 +25,7 @@ Route::get('/our-services', [PageController::class, 'services'])->name('services
 
 Route::get('/blog', [PageController::class, 'blog'])->name('blog');
 
-Route::get('/blog/{post}', [PageController::class, 'single'])->name('single');
+Route::get('/single-post/{post}', [PageController::class, 'single'])->name('single');
 
 Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
 
